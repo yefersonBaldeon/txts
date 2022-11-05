@@ -8,3 +8,4 @@ wireshark & para
 
 
 sudo ./lab.support.files/scripts/cyberops_topo.py
+wireshark-gtk &
