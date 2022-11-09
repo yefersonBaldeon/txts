@@ -1,0 +1,89 @@
+aprovisamiento de de base de datos 
+
+replicacion de base de datos => tener base de datos en varios lugares=> sucursales
+
+espejo=> una copia
+
+
+cluster=> minimo dos servidores
+
+
+
+grupos de alta disponibilidad 
+
+__________________________________________________________
+conectividad entre servidores
+	protocolos
+	configurar puerto fijo
+	puertos de firewall
+
+____________________________________________________________
+replicacion de base de datos
+
+varios puntos de venta
+
+la central y la sucursal
+
+los sitios son autonomos
+bloqueo=>// acceder dos transacciones al mismo tiempo 
+
+_______________________________________________________________
+se puede hacer una recopilacion => toda o objetos (tablas)
+sincronización
+
+publisher => es quien tiene la base de datos 
+
+distribuidor=> recibe la publilcaion
+
+suscriptor=> recibe el contenido
+
+en un solo servidor => puede ser el distribuidor y el supscritor=> pero lo puedes recargar
+ 5 agentes
+______________________________________________________________
+REPLICACION DE BASE DE DATOS
+
+replicacion de mezcla=> modicar ambos// el mas utilizado
+replicacion heterogenea => ORACLE
+
+podemos hacer la base de datos en SQL SERVER => podemos enviarla => ORACLE
+
+_________________________________________________________________--
+TRASVASES DE REGISTRO
+
+
+clustes =>alta disponibiliadad
+
+trabaja con 00 copia de seguridad 
+backup completo => luego el backup log 
+
+mas economica
+
+tiene que haber una carpeta compartida
+
+medianas y pequeña base de datos
+
+_________________________________________________________
+
+espejo
+recuperacion de desastres // alta disponibiliada
+se puede hacer en dos intanscias
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
