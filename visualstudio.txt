@@ -1,0 +1,34 @@
+		<connectionStrings>
+			<add name="connDB" connectionString="Data Source = DESKTOP-KDN3NJ6; Initial Catalog = first; Integrated Security = True"/>
+		</connectionStrings>
+=============================================================================
+
+            if (!IsPostBack)
+            {
+
+                using (SqlConnection conn =new SqlConnection(ConfigurationManager.ConnectionStrings["connDB"].ConnectionString))
+                {
+
+                    SqlCommand cmd = new SqlCommand();
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "alumnos22";
+                    cmd.Connection = conn;
+                    conn.Open();
+                    alumnos.DataSource = cmd.ExecuteReader();
+                    alumnos.DataBind();
+                }
+
+            }
+            
+======================================================================================
+
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="jumbotron">
+        <asp:GridView ID="alumnos" runat="server" AutoGenerateColumns="true"></asp:GridView>
+    </div>
+
+</asp:Content>
+
+
