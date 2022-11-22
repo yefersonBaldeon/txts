@@ -1,5 +1,5 @@
 		<connectionStrings>
-			<add name="connDB" connectionString="Data Source = DESKTOP-KDN3NJ6; Initial Catalog = first; Integrated Security = True"/>
+			<add name="connDB" connectionString="Data Source = BASE1; Initial Catalog = probando123/>
 		</connectionStrings>
 =============================================================================
 
